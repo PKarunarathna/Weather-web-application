@@ -23,6 +23,12 @@ namespace WeatherWeb.Controllers
         {
             return View();
         }
+
+
+        public ActionResult WeatherByIP()
+        {
+            return View();
+        }
         public JsonResult GetWeather()
         {
             Weather weather = new Weather();
